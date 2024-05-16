@@ -11,18 +11,26 @@ This project analyzes sales data from a global superstore to provide stakeholder
 The dashboard prominently displays essential metrics such as total sales, total profit, total units sold, total number of products, total number of customers, and total orders. These KPIs provide a snapshot of the company's sales performance.
 
 Total Sales: $12.64M
+
 Total Profit: $1.47M
+
 Total Units Sold: 178K
+
 Total Number of Products: 10K
+
 Total Number of Customers: 1,590
+
 Total Orders: 51K
 
 # Data Cleaning
 To ensure data accuracy and consistency, the following data cleaning tasks were performed using Power BI’s Power Query Editor:
 
 Replace null values
+
 Removing duplicates
+
 Correcting data types
+
 change heading
 
 # Data Modeling
@@ -52,10 +60,10 @@ total sales, total profit, total units sold, total number of products, total num
 ## Shipping Analysis
 A pie chart was created to visualize the percentage of shipping based on different ship modes:
 
-Standard Class: Highest sales
-Second Class
-First Class
-Same Day
+Standard Class: Highest sales,
+Second Class,
+First Class,
+Same Day respectively
 
 ## Sales Report
 An interactive sales report was created using slicers for city, state, region, and market to allow stakeholders to drill down into specific areas for detailed sales information.
