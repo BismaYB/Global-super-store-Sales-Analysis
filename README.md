@@ -17,7 +17,7 @@ Total Number of Products: 10K
 Total Number of Customers: 1,590
 Total Orders: 51K
 
-## Data Cleaning
+# Data Cleaning
 To ensure data accuracy and consistency, the following data cleaning tasks were performed using Power BI’s Power Query Editor:
 
 Replace null values
@@ -25,7 +25,7 @@ Removing duplicates
 Correcting data types
 change heading
 
-## Data Modeling
+# Data Modeling
 Orders Table
 The Orders table contains detailed transaction data, including order IDs, product IDs, customer IDs, sales, profit, quantity, discount, ship mode, and order and ship dates.
 
@@ -35,7 +35,7 @@ The People table includes information about the salespeople names, and regions.
 Returns Table
 The Returns table lists the returned orders, including order IDs and Market.
 
-## Visualizations
+# Visualizations
 Segmenting Visuals
 Country Representation: Sales data visualized on a map to show distribution across different countries.
 Region Representation: Bar chart comparing sales across various regions.
@@ -48,3 +48,17 @@ The Orders table is linked to the Returns table via the Order ID.
 ## New Measures
 Several new measures were created to enhance analysis:
 total sales, total profit, total units sold, total number of products, total number of customers, and total orders.
+
+## Shipping Analysis
+A pie chart was created to visualize the percentage of shipping based on different ship modes:
+
+Standard Class: Highest sales
+Second Class
+First Class
+Same Day
+
+## Sales Report
+An interactive sales report was created using slicers for city, state, region, and market to allow stakeholders to drill down into specific areas for detailed sales information.
+
+# Conclusion
+This comprehensive sales analysis provides valuable insights into sales transactions across different geographies and shipping modes. The interactive dashboard allows stakeholders to explore data in depth, facilitating informed decision-making.
