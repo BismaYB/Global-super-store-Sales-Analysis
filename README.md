@@ -23,6 +23,7 @@ Total Number of Customers: 1,590
 Total Orders: 51K
 
 # Data Cleaning
+
 To ensure data accuracy and consistency, the following data cleaning tasks were performed using Power BI’s Power Query Editor:
 
 Replace null values
@@ -34,6 +35,7 @@ Correcting data types
 change heading
 
 # Data Modeling
+
 Orders Table
 The Orders table contains detailed transaction data, including order IDs, product IDs, customer IDs, sales, profit, quantity, discount, ship mode, and order and ship dates.
 
@@ -43,21 +45,28 @@ The People table includes information about the salespeople names, and regions.
 Returns Table
 The Returns table lists the returned orders, including order IDs and Market.
 
-# Visualizations
-Segmenting Visuals
-Country Representation: Sales data visualized on a map to show distribution across different countries.
-Region Representation: Bar chart comparing sales across various regions.
-Market Representation: Treemap illustrating sales distribution across different markets
-
 Relationships
 The Orders table is linked to the People table via the Salesperson name
 The Orders table is linked to the Returns table via the Order ID.
 
 ## New Measures
+
 Several new measures were created to enhance analysis:
 total sales, total profit, total units sold, total number of products, total number of customers, and total orders.
 
+
+# Visualizations
+
+Segmenting Visuals
+Country Representation: Sales data visualized on a map to show distribution across different countries.us and australia and france have most no:of sales 
+
+Region Representation: Bar chart comparing sales across various regions. central, north,south have most no: of sale by region
+
+Market Representation: Treemap illustrating sales distribution across different markets.APAC,EU have most no:of sales in market
+
+
 ## Shipping Analysis
+
 A pie chart was created to visualize the percentage of shipping based on different ship modes:
 
 Standard Class: Highest sales,
@@ -66,7 +75,9 @@ First Class,
 Same Day respectively
 
 ## Sales Report
+
 An interactive sales report was created using slicers for city, state, region, and market to allow stakeholders to drill down into specific areas for detailed sales information.
 
 # Conclusion
+
 This comprehensive sales analysis provides valuable insights into sales transactions across different geographies and shipping modes. The interactive dashboard allows stakeholders to explore data in depth, facilitating informed decision-making.
