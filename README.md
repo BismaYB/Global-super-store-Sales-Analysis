@@ -35,6 +35,12 @@ The People table includes information about the salespeople names, and regions.
 Returns Table
 The Returns table lists the returned orders, including order IDs and Market.
 
+## Visualizations
+Segmenting Visuals
+Country Representation: Sales data visualized on a map to show distribution across different countries.
+Region Representation: Bar chart comparing sales across various regions.
+Market Representation: Treemap illustrating sales distribution across different markets
+
 Relationships
 The Orders table is linked to the People table via the Salesperson name
 The Orders table is linked to the Returns table via the Order ID.
