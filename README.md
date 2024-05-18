@@ -4,6 +4,7 @@
 This project analyzes sales data from a global superstore to provide stakeholders with detailed insights into sales transactions. The analysis includes data cleaning, segmentation of visuals by country, region, and market, shipping analysis, and comprehensive sales reports by geography. The final output is an interactive sales report created using Power BI.
 
 ## Check out the presentation of the Global Superstore Sales Analysis Dashboard here⤵:
+https://drive.google.com/file/d/1o1tdB20XjXPHk6O1_VALwQdIqyRiCn9D/view?usp=sharing
 
 
 ## Key Performance Indicators
@@ -77,6 +78,16 @@ Same Day respectively
 ## Sales Report
 
 An interactive sales report was created using slicers for city, state, region, and market to allow stakeholders to drill down into specific areas for detailed sales information.
+
+ ## Tables for Visualizations
+
+ These tables provide detailed numerical data supporting the insights derived from the visuals. This includes tables for
+
+Sales by City,
+Sales by State,
+Sales by Region,
+Sales by Market and
+Shipping Modes
 
 # Conclusion
 
